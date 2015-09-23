@@ -1,0 +1,42 @@
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+/***** GENERIC STYLES *************/
+/**********************************/
+.panel {
+    position: fixed;
+    left: -15.625em; /*left or right and the width of your navigation panel*/
+    width: 15.625em; /*should match the above value*/
+    background: #896868;
+}
+
+.panel ul{
+	list-style: none;
+}
+
+.push{
+	position: relative;
+}
+
+.wrapper {
+	width: 95%;
+	margin: 0 auto;
+}
+
+
+/***** SPECIFIC STYLES ************/
+/**********************************/
+
