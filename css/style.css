@@ -34,7 +34,124 @@
 .wrapper {
 	width: 95%;
 	margin: 0 auto;
+
 }
+
+body{
+  font-family: times, serif;
+  background-image: url(../img/bgimg.jpg);
+}
+
+header{
+  color: white;
+  background-color: #005ea5;
+}
+
+.values{
+  color: white;
+  text-align: center;
+}
+
+.main_nav{
+  color: white;
+  background-color: #b2b2b2;
+  display: none;
+}
+
+.main_nav a:link{
+  text-decoration: none;
+  color: white;
+}
+
+.main_nav a:visited{
+  color: white;
+}
+
+.main_nav a:hover{
+  color: white;
+
+}
+
+.main_nav a:active{
+  color: red;
+}
+
+h3{
+  color: #005ea5;
+}
+
+h2{
+  color: #005ea5;
+}
+
+p{
+  color: #004478;
+}
+
+.bottom_nav{
+  display: none;
+}
+
+.bottom{
+  background-color: #b2b2b2;
+  text-align: center;
+}
+
+.bottom p{
+  color: white;
+}
+
+.featured{
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+  background-color: #005ea5;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.featured h2{
+  color: white;
+  margin: 0;
+  text-decoration: none;
+}
+
+.featured a{
+  text-decoration: none;
+}
+
+
+.top{
+  color: white;
+}
+
+.top a:link{
+  text-decoration: none;
+  color: white;
+}
+
+.top a:visited{
+  color: white;
+}
+
+.top a:hover{
+  color: white;
+
+}
+
+.top a:active{
+  color: red;
+}
+
+.login{
+  text-align: right;
+  display: inline-block;
+  position: relative;
+  left: 73%;
+
+}
+
 
 
 /***** SPECIFIC STYLES ************/
