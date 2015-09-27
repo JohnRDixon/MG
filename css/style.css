@@ -20,11 +20,12 @@
     position: fixed;
     left: -15.625em; /*left or right and the width of your navigation panel*/
     width: 15.625em; /*should match the above value*/
-    background: #896868;
+    background: #004478;
 }
 
 .panel ul{
 	list-style: none;
+  background-color: #004478;
 }
 
 .push{
@@ -37,9 +38,15 @@
 
 }
 
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
 body{
   font-family: times, serif;
   background-image: url(../img/bgimg.jpg);
+  color: #004478;
 }
 
 header{
@@ -95,31 +102,14 @@ p{
 .bottom{
   background-color: #b2b2b2;
   text-align: center;
+  color: white;
 }
 
 .bottom p{
   color: white;
 }
 
-.featured{
-  margin: 0 auto;
-  width: 200px;
-  text-align: center;
-  background-color: #005ea5;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-decoration: none;
-}
 
-.featured h2{
-  color: white;
-  margin: 0;
-  text-decoration: none;
-}
-
-.featured a{
-  text-decoration: none;
-}
 
 
 .top{
@@ -157,3 +147,194 @@ p{
 /***** SPECIFIC STYLES ************/
 /**********************************/
 
+/*Homepage*/
+.featured{
+  margin: 0 auto;
+  text-align: center;
+  background-color: #005ea5;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.featured h2{
+  color: white;
+  margin: 0;
+  text-decoration: none;
+}
+
+.featured a{
+  text-decoration: none;
+}
+
+/*Attorney*/
+
+
+.attorney_sidebar{
+  background-color: #676767;
+  color: #fffff0;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+}
+
+.attorney_sidebar h2{
+  background-color: #676767;
+  color: #fffff0;
+}
+
+.attorney_sidebar a:link{
+  text-decoration: none;
+  color: #fffff0;
+}
+
+.attorney_sidebar a:visited{
+  color: #fffff0;
+}
+
+.attorney_sidebar a:hover{
+  color: #fffff0;
+
+}
+
+.attorney_sidebar a:active{
+  color: red;
+}
+
+.adamneil {
+  margin: 0 auto;
+  max-width: 100%;
+  text-align: center;
+}
+
+.cases {
+    width: auto;
+    height: 395px;
+    overflow: hidden;
+
+    /*-webkit-transition: width 2s ease;  For Safari 3.1 to 6.0 */
+    transition: height 1s;
+}
+
+.cases.hidden {
+    height: 0;
+}
+
+.button{
+  font-size: smaller;
+  vertical-align: super;
+}
+
+/*Practice Areas*/
+
+.practice_sidebar{
+  background-color: #676767;
+  color: #fffff0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.practice_sidebar h2{
+  background-color: #676767;
+  color: #fffff0;
+}
+
+.practice_sidebar a:link{
+  text-decoration: none;
+  color: #fffff0;
+}
+
+.practice_sidebar a:visited{
+  color: #fffff0;
+}
+
+.practice_sidebar a:hover{
+  color: #fffff0;
+
+}
+
+.practice_sidebar a:active{
+  color: red;
+}
+
+.attorneys a:link{
+  text-decoration: none;
+  color: #fffff0;
+  background: #005ea5;
+  padding: 20px;
+  display: block;
+  max-width: 100%;
+  font-size: large;
+}
+
+.attorneys a:visited{
+  color: #fffff0;
+}
+
+.attorneys a:hover{
+  color: #fffff0;
+
+}
+
+.attorneys a:active{
+  color: red;
+}
+
+.attorneys{
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.attorneys img{
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+
+
+@media screen and (min-width: 660px){
+  /*Homepage tablet*/
+
+  .about{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .news{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .featured{
+    max-width: 100%;
+    margin: 0 auto;
+
+  }
+
+  /*Attorney tablet*/
+  .attorney_content{
+    width: 45%;
+    display: inline-block;
+    float: right;
+  }
+
+  .attorney_sidebar{
+    width: 45%;
+    display: inline-block;
+    float: left;
+  }
+
+.bottom{
+  position: relative;
+  top: 1000px;
+
+}
+
+
+
+
+}
