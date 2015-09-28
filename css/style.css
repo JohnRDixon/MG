@@ -452,6 +452,28 @@ p{
 
 }
 
+.bottom_nav{
+  display: block;
+  float:; left;
+}
+
+.bottom_nav a:link{
+  text-decoration: none;
+  color: white;
+}
+
+.bottom_nav a:visited{
+  color: white;
+}
+
+.bottom_nav a:hover{
+  color: white;
+
+}
+
+.bottom_nav a:active{
+  color: red;
+}
 
 
 
