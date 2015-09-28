@@ -67,6 +67,7 @@ header{
 .values{
   color: white;
   text-align: center;
+
 }
 
 .main_nav{
@@ -115,6 +116,7 @@ p{
   color: white;
   width: 100%;
   margin: 0 auto;
+  margin-top: 20px;
 }
 
 .bottom p{
@@ -148,18 +150,92 @@ p{
 
 .login{
   text-align: right;
-  display: inline-block;
   float: right;
+  -moz-box-shadow:inset 0px 0px 15px 3px #23395e;
+  -webkit-box-shadow:inset 0px 0px 15px 3px #23395e;
+  box-shadow:inset 0px 0px 15px 3px #23395e;
+  background-color:#2e466e;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+  border-radius:8px;
+  border:1px solid #1f2f47;
+  cursor:pointer;
+  color:#ffffff;
+  margin-top: 71px;
+  margin-right: 10px;
+  font-size:15px;
+  padding:10px 25px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #263666;
+}
+.login:hover {
+  background-color:#415989;
+}
+.login:active {
+  position:relative;
+  top:1px;
+}
+  
+.menu-link{
+  -moz-box-shadow:inset 0px 0px 15px 3px #23395e;
+  -webkit-box-shadow:inset 0px 0px 15px 3px #23395e;
+  box-shadow:inset 0px 0px 15px 3px #23395e;
+  background-color:#2e466e;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+  border-radius:8px;
+  border:1px solid #1f2f47;
+  cursor:pointer;
+  color:#ffffff;
+  margin-top: 71px;
+  margin-left: 10px;
+  font-size:15px;
+  padding:10px 25px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #263666;
+  float: left;
 
 
 }
+.menu-link:hover {
+  background-color:#415989;
+}
+.menu-link:active {
+  position:relative;
+  top:1px;
+}
+button{  
+  -moz-box-shadow:inset 0px 0px 15px 3px #23395e;
+  -webkit-box-shadow:inset 0px 0px 15px 3px #23395e;
+  box-shadow:inset 0px 0px 15px 3px #23395e;
+  background-color:#2e466e;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+  border-radius:8px;
+  border:1px solid #1f2f47;
+  /*display:inline-block;*/
+  cursor:pointer;
+  color:#ffffff;
+  font-size:10px;
+  padding:5px 5px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #263666;
 
+}
+button:hover {
+  background-color:#415989;
+}
+button:active {
+  position:relative;
+  top:1px;
+}
 
 
 /***** SPECIFIC STYLES ************/
 /**********************************/
 
 /*Homepage*/
+
 .featured{
   margin: 0 auto;
   text-align: center;
@@ -221,13 +297,7 @@ p{
   text-align: center;
 }
 
-.cases {
-    width: auto;
-    
-    overflow: hidden;
 
-
-}
 
 .cases.hidden {
     height: 0;
@@ -311,6 +381,7 @@ p{
   color: #fffff0;
   margin: 0 auto;
   width: 100%;
+  padding-left: 20px;
 }
 
 .practice_sidebar2 h2{
@@ -345,7 +416,7 @@ p{
   text-decoration: none;
   color: #fffff0;
   background: #005ea5;
-  padding: 20px;
+  padding: 19px;
   display: block;
   max-width: 100%;
   font-size: large;
@@ -401,32 +472,25 @@ p{
 
   /*Attorney tablet*/
   .attorney_content{
-    width: 50%;
+    width: 45%;
     display: inline-block;
     float: right;
     vertical-align: top;
   }
 
   .attorney_sidebar2{
-    width: 50%;
+    width: 45%;
     display: inline-block;
     float: left;
     vertical-align: top;
+    padding: 20px;
   }
 
   .attorney_sidebar{
     display: none;
   }
 
- .cases {
-    width: auto;
-    
-    overflow: hidden;
 
-    /*-webkit-transition: width 2s ease;  For Safari 3.1 to 6.0 */
-    transition: height 1s;
-}
-  
 
   .report{
     width: 100%;
@@ -451,7 +515,7 @@ p{
   width: 45%;
   display: inline-block;
   float: left;
-  padding-bottom: 20%;
+  padding: 20px;
   
 }
 
@@ -459,22 +523,18 @@ p{
   display: none;
 }
 
-.left{
-  width: 45%;
-  display: inline-block;
-  float: left;
-  /*vertical-align: bottom;
-  vertical-align: top;*/
-  margin: 0 auto;
+.attorneys{
+  clear: both;
 }
 
-.right{
-  width: 45%;
+.attorneys ul{
+  text-align: center;
+}
+
+.attorneys li{
   display: inline-block;
-  float: right;
-  /*vertical-align: bottom;
-  vertical-align: top;*/
-  margin: 0 auto;
+  width: 45%;
+  vertical-align: top;
 }
 
 
@@ -524,7 +584,14 @@ p{
 
 .bottom_nav{
   display: block;
-  float: left;
+
+  text-align: center;
+}
+
+.bottom_nav li{
+  padding: 20px;
+  display: inline-block;
+  width: 45%;
 }
 
 .bottom_nav a:link{
@@ -544,6 +611,7 @@ p{
 .bottom_nav a:active{
   color: red;
 }
+
 
 /*Attorney Desktop*/
 
@@ -592,8 +660,7 @@ p{
 .attorneys{
   width: 29%;
   display: inline-block;
-  float: right;
-  
+
 }
 
 
