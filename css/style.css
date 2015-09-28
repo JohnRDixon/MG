@@ -23,6 +23,12 @@
     background: #004478;
 }
 
+.header_img{
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+}
+
 .panel ul{
 	list-style: none;
   background-color: #004478;
@@ -137,8 +143,7 @@ p{
 .login{
   text-align: right;
   display: inline-block;
-  position: relative;
-  left: 73%;
+  float: right;
 
 }
 
@@ -367,11 +372,7 @@ p{
     float: left;
   }
 
-  .bottom{
-  position: relative;
-  top: 1000px;
 
-  }
 /*Practice area tablet*/
 
 .practice_content{
@@ -443,18 +444,20 @@ p{
   background-color: #b2b2b2;
   display: inline-block;
   width: 100%;
+  margin: 0 auto;
 }
 
 .main_nav li{
   display: inline-block;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin: 0 auto;
 
 }
 
 .bottom_nav{
   display: block;
-  float:; left;
+  float: left;
 }
 
 .bottom_nav a:link{
@@ -473,6 +476,29 @@ p{
 
 .bottom_nav a:active{
   color: red;
+}
+
+/*Attorney Desktop*/
+/*Practice Desktop*/
+.practice_sidebar2{
+  width: 29%;
+  display: inline-block;
+  float: left;
+  padding-left: 20px;
+
+}
+
+.practice_content{
+  width: 29%;
+  display: inline-block;
+  
+
+}
+
+.attorneys{
+  width: 29%;
+  display: inline-block;
+  
 }
 
 
