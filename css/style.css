@@ -44,6 +44,10 @@
 
 }
 
+.home_link{
+  display: block;
+}
+
 ul{
   list-style: none;
   padding-left: 0;
@@ -232,6 +236,40 @@ p{
   vertical-align: super;
 }
 
+.attorney_sidebar2{
+  background-color: #676767;
+  color: #fffff0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.attorney_sidebar2 h2{
+  background-color: #676767;
+  color: #fffff0;
+}
+
+.attorney_sidebar2 a:link{
+  text-decoration: none;
+  color: #fffff0;
+}
+
+.attorney_sidebar2 a:visited{
+  color: #fffff0;
+}
+
+.attorney_sidebar2 a:hover{
+  color: #fffff0;
+
+}
+
+.attorney_sidebar2 a:active{
+  color: red;
+}
+
+
+.attorney_sidebar2{
+  display: none;
+}
 /*Practice Areas*/
 
 .practice_sidebar{
@@ -366,10 +404,23 @@ p{
     float: right;
   }
 
-  .attorney_sidebar{
+  .attorney_sidebar2{
     width: 45%;
     display: inline-block;
     float: left;
+  }
+
+  .attorney_sidebar{
+    display: none;
+  }
+
+  .cases{
+    width: 100%;
+  }
+
+  .report{
+    width: 100%;
+    display: block;
   }
 
 
@@ -445,6 +496,7 @@ p{
   display: inline-block;
   width: 100%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .main_nav li{
@@ -491,13 +543,14 @@ p{
 .practice_content{
   width: 29%;
   display: inline-block;
-  
+  float: left;
 
 }
 
 .attorneys{
   width: 29%;
   display: inline-block;
+  float: right;
   
 }
 
