@@ -25,7 +25,7 @@
 
 .header_img{
   display: block;
-  width: 30%;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -46,6 +46,8 @@
 
 .home_link{
   display: block;
+  width: 30%;
+  margin: 0 auto;
 }
 
 ul{
@@ -67,6 +69,8 @@ header{
 .values{
   color: white;
   text-align: center;
+  width: 100%;
+
 
 }
 
@@ -161,7 +165,7 @@ p{
   border:1px solid #1f2f47;
   cursor:pointer;
   color:#ffffff;
-  margin-top: 71px;
+  margin-top: 10px;
   margin-right: 10px;
   font-size:15px;
   padding:10px 25px;
