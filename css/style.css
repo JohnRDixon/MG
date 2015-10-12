@@ -266,6 +266,7 @@ button:active {
   margin: 0 auto;
   width: 100%;
   padding: 20px;
+  margin-top: 5%;
 }
 
 .attorney_sidebar h2{
@@ -349,6 +350,8 @@ button:active {
   color: #fffff0;
   margin: 0 auto;
   width: 100%;
+  padding: 2%;
+  max-width: 100%;
 }
 
 .practice_sidebar h2{
